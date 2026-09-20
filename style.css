@@ -1,8 +1,15 @@
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background: var(--bg);
     color: var(--text);
     transition: background 0.3s ease, color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 16px;
 }
 .scroll-indicator {
     position: fixed;
